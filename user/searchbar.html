@@ -1,0 +1,98 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="./user/search.html" class="link">返回</a></div>
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="center sliding">选择城市</div>
+
+    </div>
+
+</div>
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="searchbar" class="page">
+
+        <!-- Scrollable page content -->
+        <div class="page-content login-screen-content">
+            <div class="list-block">
+                <form action="http://localhost:9999/address/city/findByCodeOrName" method="GET" id="searchbar1" class="ajax-submit">
+                    <ul>
+                        <li>
+                            <div class="row no-gutter">
+
+                                <div class="col-65">
+                                    <div class="item-content">
+                                        <div class="item-inner">
+                                            <div class="item-title label">搜索</div>
+                                            <div class="item-input">
+                                                <input type="text" name="codeOrName" placeholder="城市名称" id="codename">
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-35">
+
+                                    <button type="submit" id="searchsubmit" class="button button-secondary">确认</button>
+
+                                </div>
+
+
+                            </div>
+                        </li>
+
+
+
+
+                    </ul>
+                </form>
+            </div>
+            <h2> 热门城市</h2>
+            <div class="list-block">
+                <ul>
+                    <!-- Single radio input -->
+                    <li>
+                        <label class="label-radio item-content">
+   
+                            <input type="radio" name="my-radio" value="Books" checked="checked">
+                        <div class="item-inner">
+                        <div class="item-title">北京</div>
+                        </div>
+                    </label>
+                    </li>
+                    <li>
+                        <label class="label-radio item-content">
+   
+                            <input type="radio" name="my-radio" value="Books" checked="checked">
+                        <div class="item-inner">
+                        <div class="item-title">上海</div>
+                        </div>
+                    </label>
+                    </li>
+                    <li>
+                        <label class="label-radio item-content">
+   
+                            <input type="radio" name="my-radio" value="Books" checked="checked">
+                        <div class="item-inner">
+                        <div class="item-title">深圳</div>
+                        </div>
+                    </label>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <style>
+            h2 {
+                margin: 5px;
+            }
+
+               #searchsubmit {
+                margin: 5px;
+            }
+        </style>
+    </div>
+</div>

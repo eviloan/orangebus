@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>eviloan iOS</title>
+  <link rel="stylesheet" href="../css/framework7.ios.css">
+  <!--<link rel="stylesheet" href="../css/framework7.ios.colors.css">
+  <link rel="stylesheet" href="../css/framework7.ios.colors.min.css">
+  <link rel="stylesheet" href="../css/kitchen-sink.css">-->
+  <link rel="stylesheet" href="../css/app.css">
+  <link rel="stylesheet" href="../css/my-app.css">
+  <link rel="stylesheet" href="../css/swiper.min.css">
+
+</head>
+
+<body>
+  <div class="statusbar-overlay"></div>
+  <!-- Views -->
+  <div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+      <!-- Top Navbar-->
+      <div class="navbar">
+        <div class="navbar-inner">
+          <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+          <div class="center sliding">香橙巴士</div>
+        </div>
+      </div>
+      <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+      <div class="pages navbar-through toolbar-through">
+        <!-- Page, "data-page" contains page name -->
+        <div data-page="index" class="page page-bg">
+          <!-- Scrollable page content -->
+          <div class="page-content login-screen-content">
+
+            <!-- 表单 -->
+
+            <center>
+              <h1>调度员登录</h1>
+            </center>
+
+
+            <div class="content-block">
+
+
+              <div class="forms mt-50">
+                <form method="post" class="js-validate" novalidate="novalidate">
+
+                  <div class="form-row">
+                    <div class="input-text">
+                      <input type="text" name="login" placeholder="Login" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="input-text">
+                      <input type="password" name="password" placeholder="Password" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="input-submit">
+                      <a href="../dispatcher/ticsearch.html" class="button button-big js-form-submit button-fill button-primary">登录</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="list-block">
+                <ul>
+                  <div class="row">
+                    <div class="col-50">
+                      <li><a href="" class="item-link list-button">微信登录</a></li>
+                    </div>
+                    <div class="col-50">
+                      <li><a href="../user/login.html" class="item-link list-button">新用户注册</a></li>
+                    </div>
+                  </div>
+                  <ul>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="../js/framework7.js"></script>
+  <script type="text/javascript" src="../js/my-app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="./user/search.html" class="link">返回</a></div>
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="center sliding">我的订单</div>
+
+    </div>
+</div>
+<!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="myorder" class="page">
+
+        <!-- Scrollable page content -->
+        <div class="page-content login-screen-content">
+
+
+            <!-- 表单 -->
+            <div class="content-block">
+
+                <input type="radio" name="my-radio" value="Books" checked="checked">今天
+                <input type="radio" name="my-radio" value="Books" checked="checked">近一周
+                <input type="radio" name="my-radio" value="Books" checked="checked">近一个月
+                <input type="radio" name="my-radio" value="Books" checked="checked">近三个月
+                <br>
+                <br>
+                <div>
+                    <a href="./user/book.html" class="button button-big js-form-submit button-fill button-primary">订单查询</a>
+                </div>
+            </div>
+
+
+            <div class="list-block">
+
+                <div class="card">
+
+                    <div class="card-content">
+                        <div class="card-content-inner">
+                            <div class="row">
+                                <div class="col-66">
+                                    <div class="row no gutter">
+                                        <div class="col-70">
+                                            <h2>北京--上海</h2>
+                                        </div>
+                                        <div class="col-30">
+                                            <p style="color:red" align="left">已付款</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-33">
+                                    <center>
+                                        <h2>￥170</h2>
+                                    </center>
+                                </div>
+                            </div>
+                            <h4>车次：CZ024345 乘车人数：3位</h4>
+                            <h4>开车时间：2016年10月25日 星期一 上午 10:00</h4>
+                            <div class="row">
+                                <div class="col-65">
+                                    <h4>订单创建时间：2016-10-5 10:00
+                                    </h4>
+                                </div>
+                                <div class="col-35">
+                                    <a href="./user/ordercheck.html" class="button button-primary button-fill" align="right" id="bb">检票</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="toolbar tabbar tabbar-labels">
+            <div class="toolbar-inner">
+                <a href="./user/search.html" class="">
+                    <center> <span class="icon-tags"></span></center>
+                    <span class="tabbar-label">购票</span>
+                </a>
+                <a href="./user/ordercheck.html" class="">
+                    <center> <span class="icon-bus2"></span></center>
+                    <span class="tabbar-label">乘车</span>
+                </a>
+                <a href="./user/myorder.html" class="">
+                    <center> <span class="icon-user"></span></center>
+                    <span class="tabbar-label">我的</span>
+                </a>
+            </div>
+        </div>
+
+        <style>
+            #bb{
+                margin: 10px 10px;
+            }
+
+               h4 {
+                
+                color: #7c5e4b
+            }
+        </style>
+    </div>
+</div>

@@ -1,0 +1,97 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="../dispatcher/ticresult.html" class="link">返回</a></div>
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="center sliding">车票订单列表</div>
+
+    </div>
+
+</div>
+
+<!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="orderlist" class="page">
+
+        <!-- Scrollable page content -->
+        <div class="page-content login-screen-content">
+
+
+            <!-- 表单 -->
+
+            <div class="navbar" id="nav2">
+                <div class="navbar-inner">
+                    <!-- Left part doesn't related to other pages, let's fade it out -->
+                    <div class="left">
+                        <a href="#" class="link">全部</a>
+                    </div>
+
+                    <!-- Center and Right parts reflect page title and page links, let's slide them -->
+                    <div class="center sliding">
+                        <a href="#" class="link">已确认</a>
+                    </div>
+                    <div class="right sliding">
+                        <a href="about.html" class="link">未确认</a>
+                    </div>
+                </div>
+            </div>
+            <div class="list-block">
+
+                <div class="card">
+
+                    <div class="card-content">
+                        <div class="card-content-inner">
+                            <div class="row">
+                                <div class="col-66">
+
+                                    <h3 id="text">乘客：张三</h3>
+
+                                </div>
+
+
+
+                                <div class="col-33">
+                                    <center>
+                                        <h3 id="text" align="right">已付款</h3>
+                                    </center>
+
+
+                                </div>
+                                <h4 id="text">手机：1553445232</h4>
+                                <h4 id="text">乘客人数：3位</h4>
+                            </div>
+                            <h4 id="text">订票时间：2016-07-10</h4>
+                            <div class="row">
+                                <div class="col-50">
+                                    <h3 id="text">￥180</h3>
+                                </div>
+                                <div class="col-50">
+                                    <div class="row">
+                                        <a href="#" class="button button-primary button-fill">退票</a> <a href="#" class="button button-primary button-fill">改签</a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <style>
+                #text {
+                    margin: 5px;
+                    padding: 5px;
+                }
+                
+                #nav2 {
+                    border-color: #c5c5c5;
+                    background: #c5c5c5;
+                }
+            </style>
+        </div>
+       
+
+    </div>
+</div>

@@ -1,0 +1,87 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="../dispactcher/cusorder.html" class="link">返回</a></div>
+        <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+        <div class="center sliding">车票订单（未支付）</div>
+
+    </div>
+
+</div>
+</div>
+<!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+<div class="pages">
+    <!-- Page, data-page contains page name-->
+    <div data-page="ordercheck" class="page">
+
+        <!-- Scrollable page content -->
+        <div class="page-content login-screen-content">
+
+
+            <!-- 表单 -->
+            <div class="list-block">
+                <div class="card">
+
+                    <div class="card-content">
+                        <div class="card-content-inner">
+
+                            <h2>北京--上海</h2>
+                            <h4>车次：CZ024345</h4>
+                            <h4>乘车时间：2016年10月25日 星期一 上午 10:00</h4>
+                            <h4>乘车人数：3位</h4>
+                            <h4>乘车地点：上海市普陀区中山北路3663号</h4>
+
+                            <hr style="FILTER: alpha(opacity=75,finishopacity=0)" width="100%" color=#D0D0D0 SIZE=1>
+
+
+
+                            <h4>订票人姓名:张三</h4>
+
+                            <h4>订票人电话:1233445677</h4>
+                            <h4> 订单备注：需要靠窗户的座位</h4>
+                            <h4>创建时间：2016-10-24 19:30</h4>
+                            <div class="item-inner">
+                                <input type="radio" name="my-radio" value="Books" checked="checked">
+                                <h4 style="font-size:12px">微信支付</h4>
+                                <input type="radio" name="my-radio" value="Books" checked="checked">
+                                <h4 style="font-size:12px">支付宝支付</h4>
+                                <input type="radio" name="my-radio" value="Books" checked="checked">
+                                <h4 style="font-size:12px">现金支付</h4>
+                            </div>
+                            <h4 id="money" align="right">总金额：</h4>
+                            <h4 id="money" style="font-size:25px; color:blue; " align="right">￥180</h4>
+                            <br><br>
+                            <div class="row no gutter">
+                                <div class="col-30">
+                                    <a href="" class="button button-primary button-fill">取消</a>
+                                </div>
+                                <div class="col-30">
+                                    <a href="" class="button button-primary button-fill">改签</a>
+                                </div>
+
+                                <div class="col-40">
+                                    <a href="../dispatcher/ordersuccess.html" class="button button-primary button-fill">付款</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            #money {
+                padding: 0px;
+                margin: 0px;
+                display: inline;
+            }
+            
+            h4 {
+                margin: 0px, 4px, 0px, 4px;
+            }
+        </style>
+
+
+    </div>
+</div>
+</div>

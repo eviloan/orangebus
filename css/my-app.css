@@ -1,0 +1,36 @@
+.list-block .item-link.list-button{
+color: #B28973;
+}
+
+
+.login-screen-title{
+font-weight: normal;
+color: #7c5e4b;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+font-weight: normal;
+color: #7c5e4b;
+}
+/*不换行*/
+.nobr { 
+padding: 0px;
+margin: 0px;
+display: inline;
+color: #7c5e4b
+}
+
+/*按钮红*/
+.button.button-warn {
+  border-color: #f4310d;
+  color: #f4310d;
+}
+
+.button.button-warn.active, .button.button-warn.button-fill, .button.button-warn.active-state {
+  background: #f4310d;
+  color: #ffffff;
+}
+
+
+

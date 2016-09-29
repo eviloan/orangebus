@@ -1,0 +1,68 @@
+
+  <!-- Views -->
+  <div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+      <!-- Top Navbar-->
+      <div class="navbar">
+        <div class="navbar-inner">
+          <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+          <div class="left">
+            <a href="./user/index.html" class="link">返回</a>
+          </div>
+
+          <div class="center sliding">香橙巴士</div>
+
+        </div>
+
+
+      </div>
+      <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+      <div class="pages navbar-through toolbar-through">
+        <!-- Page, "data-page" contains page name -->
+        <div data-page="login" class="page">
+          <!-- Scrollable page content -->
+          <div class="page-content login-screen-content">
+
+            <!-- 表单 -->
+
+            <div class="login-screen-title">用户注册</div>
+
+            <div class="content-block">
+                <div class="forms mt-50">
+                <form method="post" class="js-validate" novalidate="novalidate">
+
+                  <div class="form-row">
+                    <div class="input-text">
+                      <input type="text" name="login" placeholder="用户名" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="input-text">
+                      <input type="password" name="password" placeholder="密码" required>
+                    </div>
+                  </div>
+
+                    <div class="form-row">
+                    <div class="input-text">
+                      <input type="password" name="password" placeholder="再次输入密码" required>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="input-submit">
+                      <a href="./user/index.html" class="button button-big js-form-submit button-fill button-primary">注册</a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+             
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+ 
